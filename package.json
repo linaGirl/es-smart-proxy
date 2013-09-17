@@ -1,0 +1,33 @@
+{
+      "name"                        : "es-smart-proxy"
+    , "description"                 : "proxy with support for self registering clients. used for load distribution of heavy computation jobs like image processing"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/es-smart-proxy"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "os"                          : "linux"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/es-smart-proxy.git"
+        , "git"                     : "git"
+    }
+    , "engines": {
+        "node"                      : "*"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/es-smart-proxy/issues"
+    }
+    , "LICENCE"                     : "MIT"
+    , "dependencies": {
+          "ee-class"                : "*"
+        , "ee-event-emitter"        : "*"
+        , "ee-log"                  : "*"
+        , "em-rest"                 : "*"
+        , "ee-webservice"           : "*"
+        , "ee-webserver"            : "*"
+        , "ee-project"              : "*"
+        , "ee-formdata-reader"      : "*"
+        , "formidable"              : "*"
+        , "request"                 : "2.27.0"
+    }
+    , "devDependencies": {}
+    , "optionalDependencies": {}
+}
